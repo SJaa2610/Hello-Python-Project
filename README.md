@@ -46,6 +46,20 @@ python project.py
 ```
 The app will run on http://0.0.0.0:8080, and you can access the message in your browser.
 
+## Docker Support
+
+### 1. Build the Docker image:
+   ```bash
+   docker build -t hello-python-app .
+   ```
+
+### 2. Run the Docker container:
+   ```bash
+   docker run -p 8080:8080 hello-python-app
+   ```
+
+   The app will be accessible on `http://localhost:8080`.
+
 ## Project Structure
 ```bash
 ├── Dockerfile                 # Docker configuration to build the image
