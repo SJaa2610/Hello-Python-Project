@@ -47,12 +47,12 @@ python project.py
 The app will run on http://0.0.0.0:8080, and you can access the message in your browser.
 
 ## Project Structure
-bash
-Copiar código
+```bash
 ├── Dockerfile                 # Docker configuration to build the image
 ├── project.py                 # Source code of the Flask application
 ├── requirements.txt           # File containing the necessary dependencies for the project
 └── README.md                  # This file
+```
 ## Configuration
 No additional configuration is required to run this basic application.
 
@@ -64,7 +64,7 @@ Create a new branch for your changes.
 Make your changes and ensure everything works correctly.
 Commit and push your changes.
 Submit a pull request so we can review and merge your changes.
-Author
+## Author
 Sarahi
 
 ## Contact
