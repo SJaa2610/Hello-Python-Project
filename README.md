@@ -23,22 +23,22 @@ This project is a simple web application built with Flask, a lightweight web fra
 
 ### 1. Clone the repository:
 ```bash
-git clone  https://github.com/your_username/your_repository.git
+https://github.com/SJaa2610/Hello-Python-Project.git
 ```
 
-2. Navigate to the project directory:
+### 2. Navigate to the project directory:
 ```bash
-cd your_repository
+cd Hello-Python-Project
 ```
 
-3. Install dependencies:
+### 3. Install dependencies:
 If you're running the application locally, you'll need to install the dependencies using pip. Make sure you have a virtual environment active or install the dependencies globally:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run the application locally:
+### 4. Run the application locally:
 To run the application locally, simply run the following command:
 
 ```bash
@@ -46,33 +46,20 @@ python project.py
 ```
 The app will run on http://0.0.0.0:8080, and you can access the message in your browser.
 
-5. Run the application using Docker:
-If you prefer to run the app in a Docker container, make sure you have Docker installed and follow these steps:
-
-1. Build the Docker image:
-```bash
-docker build -t hello-python-app .
-```
-2. Run the container:
-```bash
-docker run -p 8080:8080 hello-python-app
-```
-The application will be available at http://localhost:8080.
-
-Project Structure
+## Project Structure
 bash
 Copiar código
 ├── Dockerfile                 # Docker configuration to build the image
 ├── project.py                 # Source code of the Flask application
 ├── requirements.txt           # File containing the necessary dependencies for the project
 └── README.md                  # This file
-Configuration
+## Configuration
 No additional configuration is required to run this basic application.
 
-Contributing
+## Contributing
 If you'd like to contribute to this project, please:
 
-Fork the repository.
+## Fork the repository.
 Create a new branch for your changes.
 Make your changes and ensure everything works correctly.
 Commit and push your changes.
@@ -80,5 +67,5 @@ Submit a pull request so we can review and merge your changes.
 Author
 Sarahi
 
-Contact
+## Contact
 GitHub: @sjaa2610
